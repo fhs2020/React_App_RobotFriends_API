@@ -16,7 +16,26 @@ export const robots = [
 		name: 'Cris',
 		username: 'Duarte',
 		email: 'cris.Duarte@yahoo.com'
-	}
+	},
+		{
+		id: 4,
+		name: 'Roberto',
+		username: 'Bret',
+		email: 'Roberto@gmail.com'
+	},
+	{
+				id: 5,
+		name: 'Tony',
+		username: 'Soprano',
+		email: 'Soprano@gmail.com'
+	},
+		{
+				id: 6,
+		name: 'Leandro',
+		username: 'Duarte',
+		email: 'Leandro.Duarte@outlook.com'
+	},
+
 
 
 ]
