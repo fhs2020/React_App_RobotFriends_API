@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import CardList from './CardList';
-import SearchBox from './SearchBox';
-import Scroll from './Scroll';
+import CardList from '../components/CardList';
+import SearchBox from '../components/SearchBox';
+import Scroll from '../components/Scroll';
 import './App.css';
 
 class App extends Component{
@@ -33,7 +33,7 @@ onSearchChange = (event) => {
 		return robots.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
 	})
 
-	if (this.state.robots.length === 0){
+	if (!this.state.robots.length){
 		return <h1>Loading</h1>
 	}
 	else {
